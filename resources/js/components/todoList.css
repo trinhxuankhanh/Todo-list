@@ -1,0 +1,48 @@
+body {
+    background: #352f5b;
+    font-family: "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+}
+input[type="text"] {
+    color: #fff;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 440px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.24s all ease-in-out;
+}
+input[type="text"]:focus {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.container {
+    max-width: 440px;
+}
+h1 {
+    font-size: 36px;
+}
+.todos li {
+    background: #423a6f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete {
+    cursor: pointer;
+}
+.todos .hide {
+    display: none;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(293deg)
+        brightness(104%) contrast(108%);
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
