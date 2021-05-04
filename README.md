@@ -4,8 +4,8 @@
 
 ## Install dependencies
 
-open terminal todo-list_laravel.test_1 container and run:
-su sail
+open terminal todo-list_laravel.test_1 container and run: &nbsp;
+su sail &nbsp;
 npm install && npm run dev
 
 ## Open
